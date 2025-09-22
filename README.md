@@ -59,9 +59,9 @@ app/
 ## ▶️ Ejecución
 
 1. Clonar el repositorio:
-   ```bash
+   ```
    git clone https://github.com/tu-usuario/TaskManager_Compose_VersionB.git
-````
+`
 
 2. Abrir el proyecto en **Android Studio** (versión recomendada: Giraffe o superior).
 3. Sincronizar Gradle y ejecutar en un emulador o dispositivo físico.
@@ -81,25 +81,5 @@ En el video final del equipo se mostrará:
 
 ## 👥 Integrantes - Grupo 5
 
-* Victor (Compose + repositorios + edición video)
-* `+503 7952 1644` (\~Privado) → Versión XML
-* `+1 (301) 828-6697` (\~Josue) → Informe comparativo
-* `+503 7504 7509` (\~OSK3) → QA + métricas + demo Compose
-
 ---
 
-## 📑 Informe comparativo
-
-El informe PDF (3–5 páginas) incluye:
-
-* Comparación técnica XML vs Compose
-* Métricas: líneas de código, tiempo de desarrollo, complejidad
-* Ventajas y desventajas de cada enfoque
-* Recomendaciones para proyectos futuros
-
----
-
-✍️ **Nota:** Este repositorio representa la versión **Compose (B)**, que busca aprovechar la declaratividad y modernidad de Jetpack Compose en contraste con el enfoque tradicional XML.
-
-```
-```
