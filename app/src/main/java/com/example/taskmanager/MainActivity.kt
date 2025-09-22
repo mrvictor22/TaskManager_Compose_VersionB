@@ -4,6 +4,11 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
+import androidx.lifecycle.viewmodel.compose.viewModel
+import com.example.taskmanager.ui.TaskViewModel
+import com.example.taskmanager.ui.screens.TaskScreen
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
@@ -18,12 +23,11 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
+            // Usa tu tema (ajusta el nombre si difiere)
             TaskManagerTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
+                Surface(color = MaterialTheme.colorScheme.background) {
+                    val vm: TaskViewModel = viewModel()
+                    TaskScreen(vm)
                 }
             }
         }
