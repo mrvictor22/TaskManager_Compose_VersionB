@@ -1,7 +1,7 @@
 
 ---
 
-```markdown
+
 # 📋 Task Manager — Jetpack Compose (Versión B)
 
 Este proyecto corresponde a la **versión en Jetpack Compose** de la aplicación **Task Manager**, desarrollada como parte de la asignación de Android Studio.  
@@ -79,7 +79,7 @@ En el video final del equipo se mostrará:
 
 ---
 
-## 👥 Integrantes
+## 👥 Integrantes - Grupo 5
 
 * Victor (Compose + repositorios + edición video)
 * `+503 7952 1644` (\~Privado) → Versión XML
